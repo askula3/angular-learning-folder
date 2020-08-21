@@ -1,0 +1,9 @@
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #212529;
+}
+.card:hover {
+  -webkit-box-shadow: 5px 5px 30px -10px rgba(0, 0, 0, 0.55);
+  box-shadow: 5px 5px 30px -10px rgba(0, 0, 0, 0.55);
+}
