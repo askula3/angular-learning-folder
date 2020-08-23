@@ -10,12 +10,12 @@
         <div class="card-body">
           <h5 class="card-title">{{ recipe.name }}</h5>
           <p class="card-text">{{ recipe.description }}</p>
-          <a href="#" class="btn btn-primary dropdown-toggle">Manage recipe</a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">To Shopping list</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Edit Recipe</a>
-            <a class="dropdown-item" href="#">Delete recipe</a>
+          <div class="btn-group py-3" role="group" aria-label="Form controls">
+            <button class="btn btn-success" type="submit">
+              To Shopping list
+            </button>
+            <button class="btn btn-danger" type="button">Edit Recipe</button>
+            <button class="btn btn-primary" type="button">Delete recipe</button>
           </div>
         </div>
       </div>
