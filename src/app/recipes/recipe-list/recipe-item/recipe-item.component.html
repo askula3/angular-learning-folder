@@ -1,5 +1,5 @@
-<a class="card-deck py-3" (click)="onSelected()">
-  <div class="card">
+<a class="card-deck py-3" [routerLink]="[index]">
+  <div class="card" routerLinkActive="cardActive">
     <img
       class="card-img-top"
       src="{{ recipe.imagePath }}"
